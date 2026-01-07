@@ -1,0 +1,23 @@
+{
+  "name": "indian-folk-art-backend",
+  "version": "1.0.0",
+  "description": "Mini project backend for Indian Folk Art Marketplace - Assignment 5",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Arghaneel Das & Ashutosh Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
+
